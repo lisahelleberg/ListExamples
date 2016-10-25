@@ -15,21 +15,21 @@ namespace Sandbox
             aListOfInt.Add(9);
 
             // Case 1
-            // Console.WriteLine("Case 1: Element with index 1 is {0}", aListOfInt[1]);
+            //Console.WriteLine("Case 1: Element with index 1 is {0}", aListOfInt[1]);
 
             // Case 2
-            // Console.WriteLine("Case 2: List contains {0} elements", aListOfInt.Count);
+            //Console.WriteLine("Case 2: List contains {0} elements", aListOfInt.Count);
  
             aListOfInt.Add(5);
             aListOfInt.Add(22);
 
             // Case 3
-            // Console.WriteLine("Case 3: Element with index 3 is {0}", aListOfInt[3]);
+            //Console.WriteLine("Case 3: Element with index 3 is {0}", aListOfInt[3]);
 
             aListOfInt.RemoveAt(0);
 
             // Case 4
-            // Console.WriteLine("Case 4: Element with index 3 is {0}", aListOfInt[3]);
+            //Console.WriteLine("Case 4: Element with index 3 is {0}", aListOfInt[3]);
 
 
 
@@ -42,6 +42,7 @@ namespace Sandbox
             aListOfInt.Add(3);
 
             // Case 5: Make some code that prints out 
+            Console.WriteLine("Case 5: List contains {0} elements", aListOfInt.Count);
             // all the elements in the list
 
 
