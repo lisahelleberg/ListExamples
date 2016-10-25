@@ -53,12 +53,12 @@ namespace Sandbox
 
 
             // Case 6: Make some code that finds the 
-            int sum = 0; //hjælpevariabel
+            int sum6 = 0; // hjælpevariabel
             foreach (int number in aListOfInt)
             {
-                sum = sum + number;
+                sum6 = sum6 + number;
             }
-            Console.WriteLine(sum);
+            //Console.WriteLine(sum6);
 
             // sum of the elements in the list, and prints the result
 
@@ -66,6 +66,16 @@ namespace Sandbox
 
             // Case 7: Make some code that finds the 
             // average of the elements in the list, and prints the result
+            int sum7 = 0;
+
+            foreach (int number in aListOfInt)
+            {
+                sum7 = sum7 + number;
+            }
+            double average = sum7 / aListOfInt.Count;
+
+            // Console.WriteLine(average);
+
             // Tip: Think about how average is defined; then
             // you might reuse something from Case 6
 
