@@ -36,8 +36,13 @@ namespace Sandbox
             aListOfInt.Clear();
             aListOfInt.Add(14);
             aListOfInt.Add(87);
+            aListOfInt.Add(13);
+            aListOfInt.Add(100);
+            aListOfInt.Add(54);
+            aListOfInt.Add(12);
             aListOfInt.Add(62);
             aListOfInt.Add(21);
+            aListOfInt.Add(6);
             aListOfInt.Add(40);
             aListOfInt.Add(3);
 
