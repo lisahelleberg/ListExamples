@@ -74,7 +74,7 @@ namespace Sandbox
             }
             double average = sum7 / aListOfInt.Count;
 
-            // Console.WriteLine(average);
+            //Console.WriteLine(average);
 
             // Tip: Think about how average is defined; then
             // you might reuse something from Case 6
@@ -86,7 +86,17 @@ namespace Sandbox
             // smallest element in the list, and prints the result
             // Tip: Think in detail about how you would do this manually
 
+            int smallest_number = 1000; // hjælpevariabel
 
+            foreach (int number in aListOfInt)
+            {
+                if (number <= smallest_number)
+                {
+                    smallest_number = number;
+                }
+             
+            }
+            Console.WriteLine("The smallest number is " + smallest_number);
 
 
 
