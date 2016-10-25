@@ -42,12 +42,24 @@ namespace Sandbox
             aListOfInt.Add(3);
 
             // Case 5: Make some code that prints out 
-            Console.WriteLine("Case 5: List contains {0} elements", aListOfInt.Count);
+            //Console.WriteLine("Case 5: List contains {0} elements", aListOfInt.Count);
+
+            foreach (int number in aListOfInt)
+            {
+                // Console.WriteLine(number);
+            }
             // all the elements in the list
 
 
 
             // Case 6: Make some code that finds the 
+            int sum = 0; //hjælpevariabel
+            foreach (int number in aListOfInt)
+            {
+                sum = sum + number;
+            }
+            Console.WriteLine(sum);
+
             // sum of the elements in the list, and prints the result
 
 
